@@ -1,0 +1,36 @@
+# Ignorer les fichiers générés par React Native
+node_modules/
+android/build/
+ios/build/
+
+# Ignorer les fichiers de dépendances spécifiques à la plateforme
+android/app/google-services.json
+android/app/debug.keystore
+android/app/release.keystore
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/assets/index.android.bundle.meta
+android/app/src/main/assets/index.android.bundle.data
+android/app/src/main/assets/index.android.bundle.index
+android/app/src/main/assets/index.android.bundle.index.meta
+ios/Pods/
+ios/build/
+
+# Ignorer les fichiers de configuration spécifiques à l'environnement
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+.envrc
+
+# Ignorer les fichiers de sauvegarde et les fichiers temporaires
+*.log
+*.backup
+*.tmp
+.DS_Store
+
+config/
+package-lock.json
+
+babel.config.js
+.expo/*
